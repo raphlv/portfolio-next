@@ -4,9 +4,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Pangeran Ryan Pahlevi (raphlv) — Senior Full-Stack & Next.js Architect',
-  description: 'Portofolio resmi Pangeran Ryan Pahlevi (raphlv). Full-Stack Web Architect & Next.js Specialist dengan 20+ repositori GitHub nyata (BRIN, Budi Luhur Portal, E-Commerce, ERP, Smart City).',
-  keywords: 'Pangeran Ryan Pahlevi, raphlv, Next.js Developer Indonesia, Full-Stack Engineer, React Specialist, Web Developer Jakarta, Portofolio Web Developer',
+  title: 'Pangeran Ryan Pahlevi — Software Engineer & Web Developer',
+  description: 'Portofolio resmi Pangeran Ryan Pahlevi (@raphlv). Pengembang perangkat lunak full-stack dengan 20 repositori GitHub nyata (Next.js 14, React, TypeScript, Laravel).',
+  keywords: 'Pangeran Ryan Pahlevi, raphlv, Web Developer Indonesia, Next.js Developer, Full-Stack Engineer, Portofolio Programmer',
   icons: {
     icon: '/favicon.ico',
   },
@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id" className="dark scroll-smooth">
-      <body className="min-h-screen flex flex-col bg-[#070A12] text-slate-100 font-sans selection:bg-cyan-500 selection:text-black">
+    <html lang="id" className="light scroll-smooth">
+      <body className="min-h-screen flex flex-col bg-[#F8FAFC] text-slate-900 font-sans selection:bg-blue-600 selection:text-white">
         <Header />
         <main className="flex-1">
           {children}

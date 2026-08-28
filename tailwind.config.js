@@ -10,23 +10,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dark: {
-          bg: '#070A12',
-          surface: '#0D1322',
-          card: '#121B2F',
-          cardHover: '#18243E',
-          border: 'rgba(255, 255, 255, 0.08)',
-          borderHover: 'rgba(0, 240, 255, 0.3)',
-        },
         brand: {
-          cyan: '#00F0FF',
-          cyanDark: '#0284C7',
-          violet: '#6366F1',
-          purple: '#8B5CF6',
-          emerald: '#10B981',
-          amber: '#F59E0B',
-          rose: '#F43F5E',
-        }
+          blue: '#2563EB',
+          blueDark: '#1D4ED8',
+          blueLight: '#3B82F6',
+          blueSoft: '#EFF6FF',
+          slate: '#0F172A',
+          slateDark: '#020617',
+          gray: '#64748B',
+          border: '#E2E8F0',
+          bg: '#FFFFFF',
+          bgSoft: '#F8FAFC',
+          bgMuted: '#F1F5F9',
+        },
       },
       fontFamily: {
         sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
@@ -34,26 +30,10 @@ module.exports = {
         display: ['Space Grotesk', 'Plus Jakarta Sans', 'sans-serif'],
       },
       boxShadow: {
-        'glow-cyan': '0 0 25px -5px rgba(0, 240, 255, 0.3)',
-        'glow-violet': '0 0 25px -5px rgba(99, 102, 241, 0.3)',
-        'glow-emerald': '0 0 20px -5px rgba(16, 185, 129, 0.3)',
-        'card-dark': '0 8px 32px 0 rgba(0, 0, 0, 0.37)',
+        'clean': '0 1px 3px 0 rgba(0, 0, 0, 0.06), 0 1px 2px 0 rgba(0, 0, 0, 0.04)',
+        'clean-md': '0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04)',
+        'clean-lg': '0 10px 25px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03)',
       },
-      animation: {
-        'float': 'float 6s ease-in-out infinite',
-        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'glow': 'glow 3s ease-in-out infinite alternate',
-      },
-      keyframes: {
-        float: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-8px)' },
-        },
-        glow: {
-          '0%': { opacity: '0.4' },
-          '100%': { opacity: '0.8' },
-        }
-      }
     },
   },
   plugins: [],

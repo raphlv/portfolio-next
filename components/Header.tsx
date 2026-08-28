@@ -5,13 +5,12 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { 
   Code2, 
-  Sparkles, 
   Menu, 
   X, 
   ArrowUpRight, 
-  MessageSquare, 
+  Phone, 
   Github,
-  Calculator
+  MessageCircle
 } from 'lucide-react';
 import { DEVELOPER_PROFILE } from '@/lib/portfolioData';
 
@@ -22,7 +21,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 15);
+      setIsScrolled(window.scrollY > 10);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -30,95 +29,87 @@ export default function Header() {
 
   const navLinks = [
     { href: '/', label: 'Beranda' },
-    { href: '/projects', label: 'Portofolio Proyek (20)' },
-    { href: '/estimator', label: 'Kalkulator Estimasi', isBadge: true },
+    { href: '/projects', label: 'Proyek (20)' },
     { href: '/about', label: 'Tentang & Keahlian' },
-    { href: '/contact', label: 'Kontak Klien' },
+    { href: '/contact', label: 'Kontak' },
   ];
 
   return (
     <header className={`sticky top-0 z-50 transition-all duration-200 ${
       isScrolled 
-        ? 'bg-[#070A12]/95 backdrop-blur-xl border-b border-white/10 shadow-xl shadow-black/40 py-3' 
-        : 'bg-[#070A12] border-b border-white/5 py-4'
+        ? 'bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm py-3' 
+        : 'bg-white border-b border-slate-200 py-3.5'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="h-10 flex items-center justify-between gap-4">
-          {/* Brand Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-indigo-600 p-0.5 shadow-glow-cyan/50 group-hover:scale-105 transition-transform flex items-center justify-center">
-              <div className="w-full h-full bg-[#070A12] rounded-[10px] flex items-center justify-center">
-                <Code2 className="w-5 h-5 text-cyan-400" />
-              </div>
+          {/* Brand Logo & Name */}
+          <Link href="/" className="flex items-center gap-2.5 group">
+            <div className="w-9 h-9 rounded-xl bg-slate-900 text-white flex items-center justify-center font-bold text-sm shadow-sm group-hover:bg-blue-600 transition-colors">
+              PR
             </div>
 
             <div className="flex flex-col justify-center">
-              <div className="flex items-center gap-2">
-                <span className="font-display font-black text-lg text-white tracking-tight">
-                  Pangeran Ryan
-                </span>
-                <span className="text-[10px] font-mono font-bold text-cyan-400 bg-cyan-950/80 border border-cyan-500/30 px-1.5 py-0.5 rounded">
-                  raphlv
-                </span>
-              </div>
               <div className="flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                <span className="text-[10px] text-emerald-400 font-semibold tracking-wide">
-                  Available for Projects
+                <span className="font-display font-bold text-base text-slate-900 tracking-tight">
+                  {DEVELOPER_PROFILE.name}
+                </span>
+                <span className="text-[11px] font-mono text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded border border-slate-200">
+                  @raphlv
                 </span>
               </div>
+              <span className="text-[11px] text-slate-500 font-medium hidden sm:inline">
+                Software Engineer & Web Developer
+              </span>
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-1.5">
+          {/* Desktop Navigation Links */}
+          <nav className="hidden md:flex items-center gap-1">
             {navLinks.map((item) => {
               const active = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href);
               return (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`h-9 px-3.5 rounded-xl text-xs font-semibold whitespace-nowrap flex items-center gap-1.5 transition-all ${
+                  className={`h-9 px-3.5 rounded-lg text-xs font-semibold whitespace-nowrap flex items-center transition-colors ${
                     active 
-                      ? 'bg-cyan-500/15 text-cyan-300 border border-cyan-500/40 shadow-glow-cyan/20' 
-                      : 'text-slate-300 hover:text-white hover:bg-white/5'
+                      ? 'bg-slate-900 text-white shadow-sm' 
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
                   }`}
                 >
-                  {item.isBadge && <Calculator className="w-3.5 h-3.5 text-cyan-400" />}
-                  <span>{item.label}</span>
+                  {item.label}
                 </Link>
               );
             })}
           </nav>
 
-          {/* Right Action: GitHub & WhatsApp CTA */}
-          <div className="flex items-center gap-2.5 shrink-0">
+          {/* Right Action: WhatsApp & GitHub */}
+          <div className="flex items-center gap-2 shrink-0">
             <a
               href={DEVELOPER_PROFILE.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="h-9 px-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white text-xs font-semibold border border-white/10 transition-all flex items-center gap-1.5"
-              title="Kunjungi Profil GitHub raphlv"
+              className="h-9 px-3 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold border border-slate-200 transition-colors flex items-center gap-1.5"
+              title="GitHub raphlv"
             >
-              <Github className="w-4 h-4 text-slate-300" />
-              <span className="hidden sm:inline">GitHub (20 Repos)</span>
+              <Github className="w-3.5 h-3.5 text-slate-700" />
+              <span className="hidden sm:inline">GitHub</span>
             </a>
 
             <a
-              href={`https://wa.me/${DEVELOPER_PROFILE.whatsapp}?text=${encodeURIComponent('Halo Pangeran Ryan, saya ingin konsultasi kebutuhan pembuatan website/sistem aplikasi.')}`}
+              href={`https://wa.me/${DEVELOPER_PROFILE.whatsapp}?text=${encodeURIComponent('Halo Pangeran Ryan, saya tertarik berdiskusi mengenai pembuatan website/aplikasi.')}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="h-9 px-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold text-xs shadow-glow-cyan transition-all flex items-center gap-1.5"
+              className="h-9 px-3.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-sm transition-colors flex items-center gap-1.5"
             >
-              <MessageSquare className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Konsultasi Proyek</span>
-              <span className="sm:hidden">Kontak</span>
+              <MessageCircle className="w-3.5 h-3.5" />
+              <span>{DEVELOPER_PROFILE.whatsappFormatted}</span>
             </a>
 
-            {/* Mobile Menu Toggle */}
+            {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden h-9 w-9 flex items-center justify-center rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10"
+              className="md:hidden h-9 w-9 flex items-center justify-center rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition-colors"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
@@ -127,41 +118,41 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Drawer */}
+      {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden fixed inset-0 top-[60px] bg-[#070A12]/98 backdrop-blur-2xl z-40 p-6 overflow-y-auto border-b border-white/10 shadow-2xl">
-          <div className="flex flex-col gap-2 max-w-md mx-auto">
-            {navLinks.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setMobileMenuOpen(false)}
-                className={`p-3.5 rounded-xl text-sm font-semibold flex items-center justify-between ${
-                  pathname === item.href ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30' : 'text-slate-300 hover:bg-white/5'
-                }`}
-              >
-                <div className="flex items-center gap-2">
-                  {item.isBadge && <Calculator className="w-4 h-4 text-cyan-400" />}
+        <div className="md:hidden fixed inset-0 top-[57px] bg-white z-40 p-6 border-b border-slate-200 shadow-xl animate-in fade-in duration-150">
+          <div className="flex flex-col gap-2 max-w-sm mx-auto">
+            {navLinks.map((item) => {
+              const active = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href);
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={`h-11 px-4 rounded-xl text-sm font-semibold flex items-center justify-between ${
+                    active ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-100'
+                  }`}
+                >
                   <span>{item.label}</span>
-                </div>
-                <ArrowUpRight className="w-4 h-4 text-slate-500" />
-              </Link>
-            ))}
+                  <ArrowUpRight className="w-4 h-4 text-slate-400" />
+                </Link>
+              );
+            })}
 
-            <div className="pt-4 border-t border-white/10 mt-2 flex flex-col gap-2">
+            <div className="pt-4 border-t border-slate-200 mt-2 flex flex-col gap-2">
               <a
                 href={DEVELOPER_PROFILE.github}
                 target="_blank"
-                className="p-3.5 rounded-xl bg-white/5 text-slate-300 text-sm font-semibold flex items-center justify-center gap-2"
+                className="h-11 px-4 rounded-xl bg-slate-100 text-slate-800 text-sm font-semibold flex items-center justify-center gap-2"
               >
-                <Github className="w-4 h-4" /> Profil GitHub (raphlv)
+                <Github className="w-4 h-4" /> Repositori GitHub (@raphlv)
               </a>
               <a
                 href={`https://wa.me/${DEVELOPER_PROFILE.whatsapp}`}
                 target="_blank"
-                className="p-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-bold text-sm flex items-center justify-center gap-2"
+                className="h-11 px-4 rounded-xl bg-emerald-600 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-sm"
               >
-                <MessageSquare className="w-4 h-4" /> Hubungi WhatsApp Langsung
+                <MessageCircle className="w-4 h-4" /> WhatsApp: {DEVELOPER_PROFILE.whatsappFormatted}
               </a>
             </div>
           </div>
