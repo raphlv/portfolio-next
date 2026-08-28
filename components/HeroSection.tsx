@@ -8,12 +8,12 @@ import {
   MessageCircle, 
   Mail, 
   Github, 
-  Layers, 
+  GraduationCap,
+  Award,
   Code2, 
-  ExternalLink,
-  Zap
+  ShieldCheck
 } from 'lucide-react';
-import { DEVELOPER_PROFILE, ALL_PROJECTS } from '@/lib/portfolioData';
+import { DEVELOPER_PROFILE, CERTIFICATIONS } from '@/lib/portfolioData';
 
 export default function HeroSection() {
   return (
@@ -39,7 +39,7 @@ export default function HeroSection() {
             </span>
           </h1>
           <p className="text-base sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-normal">
-            Halo, saya <strong className="text-slate-900 font-bold">{DEVELOPER_PROFILE.name}</strong> (<span className="text-blue-600 font-mono">@raphlv</span>). Berpengalaman membangun aplikasi web berkinerja tinggi mulai dari portal riset skala nasional (BRIN), portal media penyiaran kampus, hingga aplikasi e-commerce dan sistem informasi manajemen.
+            Halo, saya <strong className="text-slate-900 font-bold">{DEVELOPER_PROFILE.name}</strong> (<span className="text-blue-600 font-mono">@raphlv</span>). Mahasiswa Teknik Informatika Universitas Budi Luhur dengan pengalaman mengembangkan aplikasi web & mobile (Next.js 14, React, Laravel, FilamentPHP), UI/UX Design, serta Cyber Security berstandar kompetensi BNSP.
           </p>
         </div>
 
@@ -89,45 +89,45 @@ export default function HeroSection() {
           ))}
         </div>
 
-        {/* Architecture & Engineering Highlights */}
+        {/* Credentials Bar */}
         <div className="clean-card p-6 sm:p-8 rounded-3xl max-w-4xl mx-auto">
           <div className="flex items-center justify-between pb-4 border-b border-slate-200 mb-5">
             <div className="flex items-center gap-2">
-              <Code2 className="w-4 h-4 text-blue-600" />
+              <GraduationCap className="w-4 h-4 text-blue-600" />
               <span className="text-xs font-bold text-slate-800 uppercase tracking-wider">
-                Prinsip Rekayasa Perangkat Lunak
+                Profil Akademik & Sertifikasi Resmi
               </span>
             </div>
             <span className="text-[11px] font-mono font-semibold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-md border border-blue-200">
-              Next.js 14 &bull; TypeScript &bull; Laravel 11
+              Universitas Budi Luhur &bull; BNSP Certified
             </span>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs">
             <div className="space-y-1.5">
               <div className="font-bold text-slate-900 flex items-center gap-1.5">
-                <CheckCircle2 className="w-3.5 h-3.5 text-blue-600" /> Frontend Berkecepatan Tinggi
+                <GraduationCap className="w-4 h-4 text-blue-600" /> Pendidikan Sarjana
               </div>
               <p className="text-slate-600 leading-relaxed text-[11px]">
-                Mengutamakan Next.js 14 App Router, Server Components, dan CSS teroptimasi untuk waktu muat halaman di bawah 1 detik.
+                S1 Teknik Informatika Universitas Budi Luhur (IPK 3.40). Fokus studi pada Rekayasa Perangkat Lunak, Cyber Security, dan IoT.
               </p>
             </div>
 
             <div className="space-y-1.5">
               <div className="font-bold text-slate-900 flex items-center gap-1.5">
-                <CheckCircle2 className="w-3.5 h-3.5 text-blue-600" /> Struktur Database & API Bersih
+                <ShieldCheck className="w-4 h-4 text-blue-600" /> Sertifikasi Profesi BNSP
               </div>
               <p className="text-slate-600 leading-relaxed text-[11px]">
-                Pemodelan relasional yang efisien (MySQL / PostgreSQL / Prisma ORM) serta REST API terstruktur untuk kemudahan integrasi.
+                Tersertifikasi resmi Badan Nasional Sertifikasi Profesi (BNSP) bidang Teknik Komputer Jaringan & Keamanan Jaringan.
               </p>
             </div>
 
             <div className="space-y-1.5">
               <div className="font-bold text-slate-900 flex items-center gap-1.5">
-                <CheckCircle2 className="w-3.5 h-3.5 text-blue-600" /> Siap Produksi & Teruji
+                <Award className="w-4 h-4 text-blue-600" /> Prestasi GEMASTIK
               </div>
               <p className="text-slate-600 leading-relaxed text-[11px]">
-                Seluruh 20 repositori dikembangkan secara fungsional dengan standardisasi kode yang rapi dan siap dipublikasikan.
+                Peraih nominasi kelompok terpilih tingkat nasional dari 357 kelompok kompetisi teknologi mahasiswa (Puspresnas).
               </p>
             </div>
           </div>

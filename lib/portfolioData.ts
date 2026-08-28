@@ -23,21 +23,142 @@ export interface Project {
 export const DEVELOPER_PROFILE = {
   name: 'Pangeran Ryan Pahlevi',
   role: 'Software Engineer & Full-Stack Web Developer',
-  tagline: 'Mengembangkan aplikasi web modern, cepat, dan terstruktur rapi untuk instansi dan bisnis.',
-  bio: 'Pengembang web berbasis di Jakarta dengan fokus utama pada ekosistem Next.js, React, TypeScript, dan Laravel. Memiliki rekam jejak mengembangkan berbagai aplikasi nyata mulai dari portal riset skala nasional, sistem informasi kampus, platform media siaran, e-commerce, hingga sistem manajemen operasional.',
+  education: 'S1 Teknik Informatika — Universitas Budi Luhur (IPK 3.40)',
+  bio: 'Mahasiswa Teknik Informatika Universitas Budi Luhur dengan keahlian Full Stack Web & Mobile Development, UI/UX Design, serta Cyber Security (Network & Application Security). Memiliki pengalaman memimpin proyek perangkat lunak, mengembangkan CMS berbasis Laravel & FilamentPHP, sistem informasi akademik dan portal instansi, hingga aplikasi pemantauan kebencanaan geospasial.',
   email: 'pangeranryan080504@gmail.com',
   whatsapp: '6288224602608',
   whatsappFormatted: '0882-2460-2608',
   github: 'https://github.com/raphlv',
   location: 'Jakarta, Indonesia',
-  availability: 'Terbuka untuk diskusi proyek baru & kerjasama',
+  availability: 'Terbuka untuk diskusi proyek baru & kolaborasi',
   stats: [
-    { label: 'Proyek Repositori GitHub', value: '20+' },
-    { label: 'Teknologi & Framework', value: '10+' },
-    { label: 'Waktu Muat Rata-Rata', value: '< 1 Detik' },
-    { label: 'Pendekatan Kode', value: 'Clean & Modular' },
+    { label: 'Proyek GitHub Nyata', value: '20+' },
+    { label: 'Pendidikan Sarjana', value: 'Budi Luhur (3.40)' },
+    { label: 'Sertifikasi Profesi', value: 'BNSP TKJ' },
+    { label: 'Prestasi Nasional', value: 'Finalis GEMASTIK' },
   ],
 };
+
+export const CERTIFICATIONS = [
+  {
+    title: 'Sertifikat Kompetensi BNSP — Teknik Komputer Jaringan',
+    issuer: 'Badan Nasional Sertifikasi Profesi (BNSP)',
+    date: '10 Juni 2022',
+    desc: 'Kompetensi nasional pengelolaan jaringan komputer, konfigurasi router/switch, dan keamanan infrastruktur.',
+  },
+  {
+    title: 'Peraih Nominasi Kelompok Terpilih GEMASTIK',
+    issuer: 'Pusat Prestasi Nasional / Balai Pengembangan Talenta Indonesia',
+    date: 'Oktober 2023',
+    desc: 'Berhasil terpilih dan meraih nominasi kelompok terbaik dari 357 kelompok kompetisi teknologi nasional.',
+  },
+];
+
+export const WORK_EXPERIENCES = [
+  {
+    role: 'Laravel & FilamentPHP Developer',
+    organization: 'AHSA-CMS Platform',
+    period: 'Mei 2026 – Juni 2026',
+    location: 'Tangerang, Indonesia',
+    type: 'CMS & Multi-Tenant Engine',
+    highlights: [
+      'Merancang modul page builder dan arsitektur template engine dinamis pada CMS multi-tenant berbasis Laravel.',
+      'Menulis unit & feature testing dengan PestPHP (77 test case, 100% lulus) untuk menjamin stabilitas core CMS.',
+      'Mengelola alur version control Git dan branching GitHub standar industri.',
+    ],
+  },
+  {
+    role: 'Full Stack Developer',
+    organization: 'Rainfall Monitor & Early Disaster System',
+    period: 'Mei 2026 – Juli 2026',
+    location: 'Jakarta, Indonesia',
+    type: 'Smart City & Public Systems',
+    highlights: [
+      'Membangun aplikasi pengumpulan data curah hujan real-time pos hidrologi untuk deteksi dini banjir perkotaan.',
+      'Mengintegrasikan visualisasi grafik interaktif fluktuasi curah hujan periodik dan notifikasi batas aman.',
+      'Menyediakan modul ekspor data hidrologi ke format Excel/CSV.',
+    ],
+  },
+  {
+    role: 'Full Stack Developer',
+    organization: 'JIT Resolve IT Helpdesk & Service',
+    period: 'Mei 2026',
+    location: 'Jakarta, Indonesia',
+    type: 'Management & Helpdesk Systems',
+    highlights: [
+      'Membangun portal penjualan paket konsultasi IT dan pelacakan status perbaikan perangkat.',
+      'Mengembangkan modul live message bantuan teknis antara klien dan teknisi serta dashboard tiket prioritas.',
+      'Mengintegrasikan notifikasi email otomatis saat ada pembaruan status perbaikan.',
+    ],
+  },
+  {
+    role: 'Full Stack Developer',
+    organization: 'Golf Indonesia Platform',
+    period: 'April 2026',
+    location: 'Tangerang, Indonesia',
+    type: 'Management & Competition Systems',
+    highlights: [
+      'Merancang skema database relasional turnamen golf nasional (Player, EventScore, EventPar).',
+      'Mengembangkan leaderboard dinamis real-time dan optimasi SQL query untuk pemrosesan ribuan skor turnamen.',
+      'Membangun antarmuka admin untuk transaksi yardage book digital dan cetak.',
+    ],
+  },
+  {
+    role: 'FrontEnd Developer',
+    organization: 'Pengembangan Aplikasi Zakat',
+    period: 'Maret 2025 – Juni 2025',
+    location: 'Tangerang, Indonesia',
+    type: 'Mobile & Web FrontEnd',
+    highlights: [
+      'Pengembangan aplikasi web & mobile menggunakan React dan React Native.',
+      'Desain antarmuka responsif, integrasi API, pengujian lintas browser, dan praktik keamanan front-end.',
+    ],
+  },
+  {
+    role: 'UI Designer',
+    organization: 'PT. Radar Teknologi Komputer',
+    period: 'Maret 2025 – Juni 2025',
+    location: 'Tangerang, Indonesia',
+    type: 'UI/UX Design',
+    highlights: [
+      'Merancang visual komponen (tombol, ikon, tipografi) dan layout responsif multi-device.',
+      'Memastikan konsistensi panduan desain (design guideline) dan implementasi bersama tim front-end.',
+    ],
+  },
+  {
+    role: 'Project Manager',
+    organization: 'Pengembangan Aplikasi Student BudiLuhur',
+    period: 'Februari 2024 – April 2024',
+    location: 'Jakarta, Indonesia',
+    type: 'Project Management & Leadership',
+    highlights: [
+      'Memimpin dan mengawasi keseluruhan siklus pengembangan proyek aplikasi mahasiswa.',
+      'Mengoordinasikan tim lintas divisi, mengelola jadwal kerja, alokasi sumber daya, dan mitigasi kendala teknis.',
+    ],
+  },
+  {
+    role: 'FrontEnd Developer',
+    organization: 'Pengembangan Aplikasi Perpustakaan',
+    period: 'Oktober 2023 – Februari 2024',
+    location: 'Jakarta, Indonesia',
+    type: 'Web & Mobile Apps',
+    highlights: [
+      'Membangun aplikasi web dan mobile perpustakaan dengan React & React Native.',
+      'Integrasi REST API, pengelolaan state aplikasi, dan optimasi performa antarmuka.',
+    ],
+  },
+  {
+    role: 'Staff IT & Network Engineer',
+    organization: 'PT. Jaya Konsultan',
+    period: 'Juni 2021 – Agustus 2021',
+    location: 'Jakarta, Indonesia',
+    type: 'IT Infrastructure & Networking',
+    highlights: [
+      'Mengelola dan memelihara jaringan lokal (LAN) dan area luas (WAN).',
+      'Instalasi dan konfigurasi perangkat router, switch, firewall, dan troubleshooting kendala teknis pengguna.',
+    ],
+  },
+];
 
 export const ALL_PROJECTS: Project[] = [
   {
@@ -484,30 +605,31 @@ export const ALL_PROJECTS: Project[] = [
 
 export const SKILL_CATEGORIES = [
   {
-    title: 'Frontend Development',
+    title: 'Full Stack & Web/Mobile Development',
     skills: [
-      { name: 'Next.js 14 (App Router)', level: 'Mahir', desc: 'Server Components, SSR, SSG' },
-      { name: 'React 18 & Hooks', level: 'Mahir', desc: 'Custom hooks, state management' },
-      { name: 'TypeScript', level: 'Mahir', desc: 'Strict typing, modular interfaces' },
-      { name: 'Tailwind CSS', level: 'Mahir', desc: 'Custom design systems, responsive UI' },
+      { name: 'Next.js 14 & React 18', level: 'Mahir', desc: 'App Router, Server Components, SSR/SSG' },
+      { name: 'React Native & Mobile', level: 'Mahir', desc: 'Cross-platform mobile apps, status management' },
+      { name: 'Laravel 11 & FilamentPHP', level: 'Mahir', desc: 'MVC architecture, Page Builder, PestPHP' },
+      { name: 'TypeScript & JavaScript', level: 'Mahir', desc: 'Type-safe interfaces, ES6+, API integration' },
+      { name: 'Tailwind CSS & UI/UX Design', level: 'Mahir', desc: 'Design systems, responsive interfaces, Figma' },
     ],
   },
   {
-    title: 'Backend & Database',
+    title: 'Cyber Security & Network Infrastructure',
     skills: [
-      { name: 'Laravel 11 & PHP', level: 'Mahir', desc: 'MVC architecture, RESTful API' },
-      { name: 'Node.js & Express', level: 'Menengah', desc: 'API services, middleware' },
-      { name: 'Prisma ORM', level: 'Mahir', desc: 'Type-safe relational database' },
-      { name: 'MySQL & PostgreSQL', level: 'Mahir', desc: 'Relational schema, query optimization' },
+      { name: 'Network Security (LAN/WAN)', level: 'Bersertifikat BNSP', desc: 'Router, Switch, Firewall configuration' },
+      { name: 'Application Security & PenTesting', level: 'Mahir', desc: 'Input validation, OWASP, penetration testing' },
+      { name: 'Cryptography & Digital Forensics', level: 'Menengah', desc: 'Data protection, secure hashing, forensic analysis' },
+      { name: 'Relational Database (MySQL/Prisma)', level: 'Mahir', desc: 'Relational schema, query optimization, indexing' },
     ],
   },
   {
-    title: 'Tools & Workflow',
+    title: 'Project Management, Tools & Soft Skills',
     skills: [
-      { name: 'Git & GitHub Workflow', level: 'Mahir', desc: 'Version control, branch management' },
-      { name: 'Vercel / Cloud Hosting', level: 'Mahir', desc: 'Automated CI/CD deployment' },
-      { name: 'SEO & Web Performance', level: 'Mahir', desc: 'Core Web Vitals, metadata, caching' },
-      { name: 'REST API & Webhooks', level: 'Mahir', desc: 'Third-party service integrations' },
+      { name: 'Project Management & Leadership', level: 'Berpengalaman', desc: 'Perencanaan jadwal, koordinasi tim, resource management' },
+      { name: 'Git & GitHub Workflow', level: 'Mahir', desc: 'Branching, PR, version control, CI/CD' },
+      { name: 'Problem Solving & Critical Thinking', level: 'Tinggi', desc: 'Troubleshooting sistematis, pemecahan masalah' },
+      { name: 'Public Speaking & Communication', level: 'Baik', desc: 'Presentasi teknis, komunikasi klien & tim' },
     ],
   },
 ];

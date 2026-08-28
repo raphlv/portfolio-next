@@ -1,20 +1,24 @@
 import React from 'react';
 import Link from 'next/link';
 import { 
-  Code2, 
+  GraduationCap, 
+  Award, 
+  ShieldCheck, 
   CheckCircle2, 
   Github, 
   Mail, 
   MessageCircle,
-  MapPin 
+  MapPin,
+  Users,
+  Code2
 } from 'lucide-react';
 import SkillsMatrix from '@/components/SkillsMatrix';
 import WorkTimeline from '@/components/WorkTimeline';
-import { DEVELOPER_PROFILE } from '@/lib/portfolioData';
+import { DEVELOPER_PROFILE, CERTIFICATIONS } from '@/lib/portfolioData';
 
 export const metadata = {
-  title: 'Tentang & Keahlian — Pangeran Ryan Pahlevi (@raphlv)',
-  description: 'Profil lengkap, pendekatan pengembangan perangkat lunak, dan penguasaan teknologi Pangeran Ryan Pahlevi.',
+  title: 'Tentang & Profil CV — Pangeran Ryan Pahlevi (@raphlv)',
+  description: 'Profil lengkap, riwayat pendidikan Universitas Budi Luhur, sertifikasi kompetensi BNSP, penghargaan GEMASTIK, dan pengalaman kerja Pangeran Ryan Pahlevi.',
 };
 
 export default function AboutPage() {
@@ -25,7 +29,7 @@ export default function AboutPage() {
         <div className="flex items-center gap-2 text-xs text-slate-500 mb-6">
           <Link href="/" className="hover:text-blue-600 transition-colors">Beranda</Link>
           <span>/</span>
-          <span className="text-slate-900 font-semibold">Tentang & Keahlian</span>
+          <span className="text-slate-900 font-semibold">Tentang & Riwayat Karir</span>
         </div>
 
         {/* Profile Card */}
@@ -43,8 +47,8 @@ export default function AboutPage() {
               <p className="text-xs font-mono font-semibold text-blue-600 mt-0.5">
                 @{DEVELOPER_PROFILE.github.split('/').pop()}
               </p>
-              <p className="text-xs text-slate-500 mt-1 font-medium">
-                {DEVELOPER_PROFILE.role}
+              <p className="text-xs text-slate-600 mt-1 font-medium">
+                {DEVELOPER_PROFILE.education}
               </p>
 
               <div className="mt-4 flex items-center gap-2">
@@ -69,39 +73,107 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Right: Bio & Engineering Approach */}
+            {/* Right: Bio & Profile Summary from CV */}
             <div className="lg:col-span-8 space-y-3.5 text-slate-600 text-xs sm:text-sm leading-relaxed border-t lg:border-t-0 lg:border-l border-slate-200 pt-6 lg:pt-0 lg:pl-8">
               <span className="px-2.5 py-0.5 rounded-md bg-blue-50 text-blue-700 text-[11px] font-bold border border-blue-200 uppercase tracking-wider inline-block">
-                Tentang Saya
+                Ringkasan Profil Profesional
               </span>
               <h2 className="text-xl font-bold text-slate-900">
-                Membangun Sistem yang Cepat, Terstruktur, dan Fungsional
+                Mahasiswa Teknik Informatika & Rekayasawan Perangkat Lunak
               </h2>
               <p>
-                Saya adalah pengembang perangkat lunak dengan fokus pada pengembangan aplikasi web berbasis <strong>Next.js 14, React 18, TypeScript, dan Laravel 11</strong>.
+                Saya adalah mahasiswa program sarjana (S1) Teknik Informatika di <strong>Universitas Budi Luhur</strong> dengan indeks prestasi kumulatif (IPK) <strong>3.40</strong>. Memiliki ketertarikan tinggi pada bidang <strong>Cyber Security, Computer Engineering, dan IoT</strong>, serta berpengalaman luas dalam pengembangan aplikasi web dan mobile modern.
               </p>
               <p>
-                Dalam setiap proyek, saya memprioritaskan kerapian struktur kode, modularitas komponen, kemudahan pemeliharaan, serta kecepatan muat yang optimal agar memberikan pengalaman terbaik bagi pengguna akhir.
+                Dikenal sebagai pribadi yang adaptif, komunikatif, berdaya analisis kritis, dan fokus pada pemecahan masalah (problem solving). Mampu bekerja secara mandiri maupun berkolaborasi dalam tim lintas divisi, baik sebagai Full-Stack Developer, UI Designer, maupun Project Manager.
               </p>
 
               {/* Guarantees */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-2 text-xs">
                 <div className="flex items-center gap-2 text-slate-800 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Performa Cepat & Teroptimasi</span>
+                  <span>Full Stack Web & Mobile (React / Laravel)</span>
                 </div>
                 <div className="flex items-center gap-2 text-slate-800 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Arsitektur SEO Friendly</span>
+                  <span>Sertifikasi Resmi BNSP Komputer Jaringan</span>
                 </div>
                 <div className="flex items-center gap-2 text-slate-800 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Struktur Kode Bersih & Modular</span>
+                  <span>Finalis Kelompok Terpilih GEMASTIK</span>
                 </div>
                 <div className="flex items-center gap-2 text-slate-800 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Dukungan Teknis Langsung</span>
+                  <span>Pengalaman Project Management & UI/UX</span>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Certifications & Organization Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          {/* Certifications Card */}
+          <div className="clean-card p-6 rounded-3xl space-y-4">
+            <div className="flex items-center gap-2 border-b border-slate-200 pb-3">
+              <Award className="w-5 h-5 text-blue-600" />
+              <h3 className="text-base font-bold text-slate-900">
+                Sertifikasi & Penghargaan
+              </h3>
+            </div>
+
+            <div className="space-y-4">
+              {CERTIFICATIONS.map((cert, idx) => (
+                <div key={idx} className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1">
+                  <div className="flex items-start justify-between gap-2">
+                    <h4 className="text-xs font-bold text-slate-900">{cert.title}</h4>
+                    <span className="text-[10px] font-semibold text-blue-700 bg-blue-50 px-2 py-0.5 rounded border border-blue-200 shrink-0">
+                      {cert.date}
+                    </span>
+                  </div>
+                  <p className="text-[11px] font-medium text-slate-500">{cert.issuer}</p>
+                  <p className="text-xs text-slate-600 leading-relaxed pt-1">{cert.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Education & Organization Card */}
+          <div className="clean-card p-6 rounded-3xl space-y-4">
+            <div className="flex items-center gap-2 border-b border-slate-200 pb-3">
+              <GraduationCap className="w-5 h-5 text-blue-600" />
+              <h3 className="text-base font-bold text-slate-900">
+                Pendidikan & Organisasi
+              </h3>
+            </div>
+
+            <div className="space-y-4">
+              {/* Education */}
+              <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1">
+                <div className="flex items-start justify-between gap-2">
+                  <h4 className="text-xs font-bold text-slate-900">S1 Teknik Informatika</h4>
+                  <span className="text-[10px] font-semibold text-slate-700 bg-white px-2 py-0.5 rounded border border-slate-200 shrink-0">
+                    2022 - 2026
+                  </span>
+                </div>
+                <p className="text-[11px] font-medium text-slate-500">Universitas Budi Luhur — Jakarta</p>
+                <p className="text-xs text-slate-600 leading-relaxed pt-1">
+                  Meraih Indeks Prestasi Kumulatif (IPK) <strong>3.40</strong> dengan pendalaman pada Rekayasa Perangkat Lunak, Jaringan Komputer, dan Keamanan Sistem.
+                </p>
+              </div>
+
+              {/* Organization */}
+              <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1">
+                <div className="flex items-start justify-between gap-2">
+                  <h4 className="text-xs font-bold text-slate-900">BudiLuhur Esports — Divisi Editing & Media</h4>
+                  <span className="text-[10px] font-semibold text-slate-700 bg-white px-2 py-0.5 rounded border border-slate-200 shrink-0">
+                    2022 - 2023
+                  </span>
+                </div>
+                <p className="text-[11px] font-medium text-slate-500">Organisasi Mahasiswa Kampus</p>
+                <p className="text-xs text-slate-600 leading-relaxed pt-1">
+                  Bertanggung jawab merancang konsep kreatif, produksi editing foto/video, dan manajemen media sosial organisasi.
+                </p>
               </div>
             </div>
           </div>
@@ -111,7 +183,7 @@ export default function AboutPage() {
       {/* Skills Matrix */}
       <SkillsMatrix />
 
-      {/* Career Timeline */}
+      {/* Work Timeline */}
       <WorkTimeline />
     </div>
   );
