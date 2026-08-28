@@ -82,7 +82,7 @@ export default function AboutPage() {
                 Mahasiswa Teknik Informatika & Rekayasawan Perangkat Lunak
               </h2>
               <p>
-                Saya adalah mahasiswa program sarjana (S1) Teknik Informatika di <strong>Universitas Budi Luhur</strong> dengan indeks prestasi kumulatif (IPK) <strong>3.40</strong>. Memiliki ketertarikan tinggi pada bidang <strong>Cyber Security, Computer Engineering, dan IoT</strong>, serta berpengalaman luas dalam pengembangan aplikasi web dan mobile modern.
+                Saya adalah mahasiswa program sarjana (S1) Teknik Informatika di <strong>Universitas Budi Luhur</strong>. Memiliki ketertarikan tinggi pada bidang <strong>Cyber Security, Computer Engineering, dan IoT</strong>, serta berpengalaman luas dalam pengembangan aplikasi web dan mobile modern.
               </p>
               <p>
                 Dikenal sebagai pribadi yang adaptif, komunikatif, berdaya analisis kritis, dan fokus pada pemecahan masalah (problem solving). Mampu bekerja secara mandiri maupun berkolaborasi dalam tim lintas divisi, baik sebagai Full-Stack Developer, UI Designer, maupun Project Manager.
@@ -158,7 +158,7 @@ export default function AboutPage() {
                 </div>
                 <p className="text-[11px] font-medium text-slate-500">Universitas Budi Luhur — Jakarta</p>
                 <p className="text-xs text-slate-600 leading-relaxed pt-1">
-                  Meraih Indeks Prestasi Kumulatif (IPK) <strong>3.40</strong> dengan pendalaman pada Rekayasa Perangkat Lunak, Jaringan Komputer, dan Keamanan Sistem.
+                  Program studi sarjana Teknik Informatika dengan pendalaman pada Rekayasa Perangkat Lunak, Jaringan Komputer, dan Keamanan Sistem.
                 </p>
               </div>
 

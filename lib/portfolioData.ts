@@ -23,7 +23,7 @@ export interface Project {
 export const DEVELOPER_PROFILE = {
   name: 'Pangeran Ryan Pahlevi',
   role: 'Software Engineer & Full-Stack Web Developer',
-  education: 'S1 Teknik Informatika — Universitas Budi Luhur (IPK 3.40)',
+  education: 'S1 Teknik Informatika — Universitas Budi Luhur',
   bio: 'Mahasiswa Teknik Informatika Universitas Budi Luhur dengan keahlian Full Stack Web & Mobile Development, UI/UX Design, serta Cyber Security (Network & Application Security). Memiliki pengalaman memimpin proyek perangkat lunak, mengembangkan CMS berbasis Laravel & FilamentPHP, sistem informasi akademik dan portal instansi, hingga aplikasi pemantauan kebencanaan geospasial.',
   email: 'pangeranryan080504@gmail.com',
   whatsapp: '6288224602608',
@@ -33,7 +33,7 @@ export const DEVELOPER_PROFILE = {
   availability: 'Terbuka untuk diskusi proyek baru & kolaborasi',
   stats: [
     { label: 'Proyek GitHub Nyata', value: '20+' },
-    { label: 'Pendidikan Sarjana', value: 'Budi Luhur (3.40)' },
+    { label: 'Pendidikan Sarjana', value: 'Budi Luhur' },
     { label: 'Sertifikasi Profesi', value: 'BNSP TKJ' },
     { label: 'Prestasi Nasional', value: 'Finalis GEMASTIK' },
   ],

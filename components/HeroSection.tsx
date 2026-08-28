@@ -109,7 +109,7 @@ export default function HeroSection() {
                 <GraduationCap className="w-4 h-4 text-blue-600" /> Pendidikan Sarjana
               </div>
               <p className="text-slate-600 leading-relaxed text-[11px]">
-                S1 Teknik Informatika Universitas Budi Luhur (IPK 3.40). Fokus studi pada Rekayasa Perangkat Lunak, Cyber Security, dan IoT.
+                S1 Teknik Informatika Universitas Budi Luhur. Fokus studi pada Rekayasa Perangkat Lunak, Cyber Security, dan IoT.
               </p>
             </div>
 
