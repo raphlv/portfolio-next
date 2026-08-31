@@ -186,7 +186,7 @@ export const ALL_PROJECTS: Project[] = [
       'Halaman detail dinamis untuk seluruh 12 Organisasi Riset beserta invensi unggulan.',
       'Panel CMS Admin untuk memantau data riset dan publikasi warta.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1507668077129-56e32842fceb?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/brin-portal.jpg',
   },
   {
     id: 'budiluhur-portal-next',
@@ -211,7 +211,7 @@ export const ALL_PROJECTS: Project[] = [
       'Navigasi akademik terstruktur dan modul informasi PMB.',
       'Skema basis data relasional yang bersih dan mudah dikembangkan.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/budiluhur-portal.jpg',
   },
   {
     id: 'budiluhur-tv-next',
@@ -235,7 +235,7 @@ export const ALL_PROJECTS: Project[] = [
       'Modul Live Report untuk update laporan langsung kegiatan kampus.',
       'Direktori tim produksi dan kru kreatif media.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/budiluhur-tv.jpg',
   },
   {
     id: 'radiobudiluhur-next',
@@ -259,7 +259,7 @@ export const ALL_PROJECTS: Project[] = [
       'Continuous Audio Player yang tetap menyala saat menjelajahi halaman.',
       'Sistem Chart Top 20 dengan update lagu berkala.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/budiluhur-tv.jpg',
   },
   {
     id: 'rental',
@@ -282,7 +282,7 @@ export const ALL_PROJECTS: Project[] = [
       'Manajemen status armada (Tersedia, Disewa, Dalam Perawatan).',
       'Pencatatan data penyewa dan kalkulasi denda keterlambatan otomatis.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/arsitektur-sistem.png',
   },
   {
     id: 'kusuma-craft',
@@ -305,7 +305,7 @@ export const ALL_PROJECTS: Project[] = [
       'Galeri foto produk yang rapi dengan rincian ukuran dan bahan.',
       'Sistem pemilihan item dan formulir pemesanan cepat.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/kusuma-craft.jpg',
   },
   {
     id: 'khumairasnack',
@@ -326,7 +326,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Penyusunan menu berdasarkan rasa manis, asin, dan paket hampers.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1599490659213-e2b9527bd087?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/khumairasnack.png',
   },
   {
     id: 'golf-indonesia',
@@ -347,7 +347,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Daftar lapangan golf dengan informasi fasilitas lengkap.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/wireframe-ui.png',
   },
   {
     id: 'bencana',
@@ -368,7 +368,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Peta visual titik bencana dan lokasi posko pengungsian.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547683905-f686c993aae5?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/bencana.png',
   },
   {
     id: 'jit-resolve',
@@ -389,7 +389,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Formulir submit kendala teknis dan dashboard monitoring beban teknisi.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/arsitektur-sistem.png',
   },
   {
     id: 'igakerta',
@@ -410,28 +410,28 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Modul formulir surat warga dan transparansi data umum desa.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/flowchart-sistem.png',
   },
   {
     id: 'atlas',
-    name: 'Atlas GIS Pemetaan Spasial',
+    name: 'Atlas Gaming Gear E-Commerce',
     repoName: 'atlas',
-    title: 'Aplikasi Web Pemetaan Interaktif & Data Spasial',
-    category: 'Smart City & Public',
-    tagline: 'Visualisasi layer batas wilayah dan sebaran fasilitas publik',
-    description: 'Platform visualisasi data geografis yang menampilkan batas wilayah dan titik fasilitas publik berbasis GeoJSON.',
-    problem: 'Visualisasi data wilayah sulit dipahami jika hanya berupa tabel angka tanpa representasi visual pada peta.',
-    solution: 'Membuat web GIS interaktif yang dapat memfilter layer infrastruktur dan zonasi.',
-    techStack: ['PHP', 'JavaScript', 'Leaflet', 'GeoJSON', 'MySQL'],
+    title: 'Aplikasi Web Katalog Produk Gaming Gear & Aksesoris',
+    category: 'E-Commerce & UMKM',
+    tagline: 'Katalog aksesoris gaming mobile, earbuds low latency, dan trigger controller',
+    description: 'Platform e-commerce produk gaming gear mobile (Ares V1/V2, Frosttune Earbuds, Trigger Controller) dengan etalase visual modern dan spesifikasi perangkat.',
+    problem: 'Pemain game mobile membutuhkan platform spesifik untuk mencari perlengkapan gaming yang kompatibel dengan ponsel mereka.',
+    solution: 'Toko online interaktif dengan galeri produk gaming berkualitas tinggi dan integrasi marketplace.',
+    techStack: ['Laravel', 'PHP', 'Tailwind CSS', 'MySQL'],
     githubUrl: 'https://github.com/raphlv/atlas',
-    featured: false,
+    featured: true,
     metrics: [
-      { label: 'Format Peta', value: 'GeoJSON Layer' },
+      { label: 'Produk Gear', value: 'Ares Series' },
     ],
     highlights: [
-      'Peta interaktif dengan informasi detail pada setiap titik wilayah.',
+      'Galeri render 3D produk gaming gear dan spesifikasi teknis.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/atlas.png',
   },
   {
     id: 'apl_BankSampah',
@@ -452,7 +452,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Perhitungan otomatis saldo tabungan berdasarkan harga per kilogram.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/bencana-detail.png',
   },
   {
     id: 'siswa',
@@ -473,7 +473,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Input nilai bertingkat dan kalkulasi nilai rata-rata mata pelajaran.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/wireframe-ui.png',
   },
   {
     id: 'jurnal',
@@ -494,7 +494,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Pelacakan status naskah bagi penulis dan form penilaian reviewer.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/flowchart-sistem.png',
   },
   {
     id: 'zanilove',
@@ -515,7 +515,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Filter kategori pakaian dan tombol order terhubung ke customer service.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/zanilove.png',
   },
   {
     id: 'apl_Catering',
@@ -536,7 +536,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Pilihan menu mingguan dan pemilihan porsi makanan yang praktis.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/khumairasnack-products.png',
   },
   {
     id: 'jule-publicspeaking',
@@ -557,7 +557,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Silabus materi pelatihan dan formulir registrasi peserta.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/jule-publicspeaking.jpeg',
   },
   {
     id: 'stream-overlay',
@@ -578,7 +578,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Animasi lower-third dan penghitung waktu siaran yang ringan.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/stream-overlay.png',
   },
   {
     id: 'budiluhur-tv',
@@ -599,7 +599,7 @@ export const ALL_PROJECTS: Project[] = [
     highlights: [
       'Dashboard manajemen jadwal siaran dan publikasi video.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/projects/budiluhur-tv.jpg',
   },
 ];
 
