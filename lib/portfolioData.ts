@@ -56,6 +56,18 @@ export const CERTIFICATIONS = [
 
 export const WORK_EXPERIENCES = [
   {
+    role: 'Lead Full-Stack & AI Systems Developer',
+    organization: 'DIGISMART AI Public Communication',
+    period: 'Agustus 2026 – Sekarang',
+    location: 'Jakarta, Indonesia',
+    type: 'AI Systems & Multi-Platform',
+    highlights: [
+      'Merancang arsitektur sistem komando komunikasi publik digital berbasis Next.js 14, TypeScript, dan Tailwind CSS.',
+      'Mengintegrasikan AI News Generator (5W+1H), NLP Sentiment Analysis Engine, dan Quick Response Crisis Holding Statement.',
+      'Mengemas aplikasi mandiri multi-platform untuk Desktop Windows (.EXE via Electron) dan Mobile Android (.APK via Capacitor).',
+    ],
+  },
+  {
     role: 'Laravel & FilamentPHP Developer',
     organization: 'AHSA-CMS Platform',
     period: 'Mei 2026 – Juni 2026',
@@ -161,6 +173,33 @@ export const WORK_EXPERIENCES = [
 ];
 
 export const ALL_PROJECTS: Project[] = [
+  {
+    id: 'digismart-next',
+    name: 'DIGISMART v2.0',
+    repoName: 'digismart-next',
+    title: 'DIGISMART — AI Public Communication Command Center & Simulator',
+    category: 'Smart City & Public',
+    tagline: 'Platform instrumen kehumasan digital berbasis AI dengan generator berita 5W+1H, analisis sentimen NLP, dan respons krisis multi-platform',
+    description: 'Sistem komando komunikasi publik digital yang dirancang untuk memantau dinamika percakapan netizen, memproduksi warta resmi dengan kecerdasan buatan, menganalisis polaritas opini publik, dan merumuskan holding statement respons krisis reputasi.',
+    problem: 'Humas instansi dan periset komunikasi membutuhkan platform terpadu untuk mendeteksi krisis reputasi secara cepat dalam Golden Hour (< 60 menit) dan mengotomatisasi produksi siaran pers serta rilis multi-channel.',
+    solution: 'Membangun aplikasi multi-platform (Web Next.js 14, Desktop Windows .EXE via Electron, dan Mobile Android .APK via Capacitor) dengan 8 modul interaktif, visualisasi tren SVG real-time, dan engine NLP sentimen.',
+    techStack: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'Electron', 'Capacitor', 'NLP Engine'],
+    githubUrl: 'https://github.com/raphlv/digismart-next',
+    liveDemoUrl: 'http://localhost:3006',
+    featured: true,
+    metrics: [
+      { label: 'Modul Interaktif', value: '8 Modul' },
+      { label: 'Dukungan Platform', value: 'Web / EXE / APK' },
+      { label: 'Respons Krisis', value: '< 60 Menit' },
+      { label: 'Formula Jurnalistik', value: '5W + 1H' },
+    ],
+    highlights: [
+      'Dashboard Command Center dengan visualisasi grafik tren SVG harian dan donut chart sentimen publik.',
+      'AI News Generator 5W+1H dan generator Holding Statement krisis humas darurat.',
+      'Kompilasi multi-platform mandiri menjadi installer Windows .EXE dan mobile Android .APK/PWA.',
+    ],
+    imageUrl: '/projects/digismart.png',
+  },
   {
     id: 'brin-portal-next',
     name: 'BRIN Portal Next.js',
