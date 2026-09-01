@@ -1,58 +1,50 @@
 ﻿<div align="center">
 
-# ðŸ’¼ Pangeran Ryan Pahlevi (`raphlv`) â€” Full-Stack Software Engineer & Web Developer
+# ðŸ’¼ Pangeran Ryan Pahlevi â€” Software Engineer & Full-Stack Portfolio
 
-### *Website Portofolio Profesional Berbasis Next.js 14, React 18, TypeScript, dan Tailwind CSS*
+### *Personal Developer Portfolio & 21+ Enterprise Software Showcases*
 
-[![Next.js](https://img.shields.io/badge/Next.js-14.x-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-2.12-22c55e?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
 </div>
 
-## ðŸŒŸ Tentang Portofolio
+## ðŸ“Œ About The Project
 
-Website portofolio resmi **Pangeran Ryan Pahlevi** ([@raphlv](https://github.com/raphlv)) dirancang dengan estetika modern, bersih (*clean light theme*), dan terstruktur untuk menampilkan **20 proyek nyata di GitHub** kepada calon klien, instansi pemerintah, institusi pendidikan, dan perusahaan.
+The official developer portfolio of **Pangeran Ryan Pahlevi**, showcasing 21+ production-grade software projects, national research portals, AI command centers, university platforms, and e-commerce systems.
 
----
-
-## ðŸš€ Fitur Utama
-
-1. **Galeri 20 Proyek Nyata GitHub**:
-   - **Enterprise & Portals**: BRIN Portal Next.js, Budi Luhur Portal, Budi Luhur TV Streaming, Radio Budi Luhur 107.7 FM, Jurnal Akademik, Budi Luhur TV Laravel Engine, Jule Public Speaking.
-   - **E-Commerce & UMKM**: Kusuma Craft, Khumaira Snack, Zanilove Fashion, Aplikasi Catering.
-   - **Management Systems & ERP**: Rental System Armada, Golf Indonesia, JIT-Resolve Helpdesk, SIM Siswa.
-   - **Smart City & Public**: Tanggap Bencana Real-Time, Layanan Desa Iga Kerta, Atlas GIS Spasial, Bank Sampah Digital, Stream Overlay Studio.
-2. **Studi Kasus Detail (Modal Case Study)**:
-   - Menjelaskan latar belakang tantangan (*Problem*), solusi arsitektur teknis (*Solution*), metrik hasil, dan tautan langsung ke repositori GitHub.
-3. **Matriks Keahlian & Teknologi**:
-   - Next.js 14, React 18, TypeScript, Tailwind CSS, Laravel 11, PHP, Node.js, Prisma ORM, MySQL, PostgreSQL.
-4. **Kontak Langsung**:
-   - WhatsApp: **0882-2460-2608** (`+62 882-2460-2608`)
-   - Email: **pangeranryan080504@gmail.com**
-   - GitHub: **[github.com/raphlv](https://github.com/raphlv)**
+ðŸŒ **Live Demo**: [https://pangeranryan.vercel.app](https://pangeranryan.vercel.app)
 
 ---
 
-## ðŸ› ï¸ Menjalankan di Lokal
+## âœ¨ Key Features
 
-```bash
-# Masuk ke direktori
-cd c:\laragon\www\portfolio-next
-
-# Jalankan build & start
-npm run build
-npm start -- -p 3010
-```
+- **ðŸš€ Interactive Project Gallery**: Multi-category filter for 21+ real GitHub repositories with architecture blueprints, metrics, and problem-solution breakdowns.
+- **ðŸ›ï¸ Integrated Bank Indonesia Showcase**: Full central bank portal showcase embedded at \/bank-indonesia\.
+- **ðŸ“Š Skills & Competencies Matrix**: Visual rating of technical proficiencies (Next.js, Laravel, TypeScript, NLP, Cyber Security).
+- **â±ï¸ Career & Leadership Timeline**: Detailed breakdown of software engineering roles, project management, and national achievements (GEMASTIK Finalist, BNSP Certification).
+- **âš¡ 100% Static Site Generation**: Blazing fast load times with Next.js 14 App Router.
 
 ---
 
-<div align="center">
-  <sub>Â© 2026 Pangeran Ryan Pahlevi (raphlv). All Rights Reserved.</sub>
-</div>
+## ðŸš€ Getting Started
 
+`ash
+git clone https://github.com/raphlv/portfolio-next.git
+cd portfolio-next
+npm install
+npm run dev
+`
 
-<!-- Last updated: 2026-09-01 13:06:26 -->
+---
+
+## ðŸ‘¨â€ðŸ’» Developer
+**Pangeran Ryan Pahlevi** â€” [pangeranryan.vercel.app](https://pangeranryan.vercel.app)
+
+<!-- Last verified & polished: 2026-09-01 13:08:36 by Pangeran Ryan Pahlevi -->
+
