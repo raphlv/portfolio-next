@@ -33,7 +33,7 @@ export const DEVELOPER_PROFILE = {
   location: 'Jakarta, Indonesia',
   availability: 'Terbuka untuk diskusi proyek baru & kolaborasi',
   stats: [
-    { label: 'Proyek GitHub Nyata', value: '20+' },
+    { label: 'Proyek GitHub Nyata', value: '21+' },
     { label: 'Pendidikan Sarjana', value: 'Budi Luhur' },
     { label: 'Sertifikasi Profesi', value: 'BNSP TKJ' },
     { label: 'Prestasi Nasional', value: 'Finalis GEMASTIK' },
@@ -174,6 +174,33 @@ export const WORK_EXPERIENCES = [
 ];
 
 export const ALL_PROJECTS: Project[] = [
+  {
+    id: 'bi-portal-next',
+    name: 'Bank Indonesia Portal Next.js',
+    repoName: 'bi-portal-next',
+    title: 'Portal Web Resmi Bank Indonesia — Modern Central Bank Web Platform',
+    category: 'Enterprise & Portals',
+    tagline: 'Modernisasi portal resmi Bank Sentral RI dengan live monetary indicators ticker, JISDOR currency calculator, dan newsroom interaktif',
+    description: 'Pengembangan ulang portal resmi Bank Indonesia (bi.go.id) menggunakan Next.js 14 App Router, TypeScript, dan Tailwind CSS. Menghadirkan identitas resmi Biru BI (#003F87) dan Aksen Emas (#C5A059), indikator moneter BI-Rate (6.00%), Inflasi (2.12%), Cadangan Devisa (USD 150.2B), kalkulator konversi valas JISDOR, dan repositori publikasi/regulasi.',
+    problem: 'Situs web institusi bank sentral membutuhkan performa akses cepat, penyajian data kurs dan suku bunga acuan realtime yang presisi, serta tata kelola informasi kebijakan moneter yang mudah dipahami oleh publik dan pelaku pasar.',
+    solution: 'Membangun portal modern Next.js 14 dengan arsitektur modular, widget kurs JISDOR interaktif, visualisasi grafik Recharts, command palette pencarian cerdas (Ctrl+K), dan navigasi mega menu komprehensif.',
+    techStack: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'Recharts', 'Lucide-React'],
+    githubUrl: 'https://github.com/raphlv/bi-portal-next',
+    liveDemoUrl: '/bank-indonesia',
+    featured: true,
+    metrics: [
+      { label: 'Indikator Moneter', value: 'Realtime' },
+      { label: 'Konversi Valas', value: '8 Mata Uang' },
+      { label: 'Kategori Regulasi', value: 'PBI & PADG' },
+      { label: 'Performa Rute', value: '100% SSG' },
+    ],
+    highlights: [
+      'Widget realtime BI-Rate, Inflasi, Cadangan Devisa, dan Kurs JISDOR USD/IDR.',
+      'Kalkulator konversi valuta asing interaktif dengan pilihan kurs Tengah, Beli, dan Jual.',
+      'Repositori publikasi Laporan Perekonomian Indonesia (LPI) dan direktori regulasi PBI.',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80',
+  },
   {
     id: 'digismart-next',
     name: 'DIGISMART v2.0',
