@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-# ðŸ’¼ Pangeran Ryan Pahlevi â€” Software Engineer & Full-Stack Portfolio
+# Pangeran Ryan Pahlevi â€” Software Engineer and Full-Stack Portfolio
 
 ### *Personal Developer Portfolio & 21+ Enterprise Software Showcases*
 
@@ -14,25 +14,25 @@
 
 </div>
 
-## ðŸ“Œ About The Project
+## About The Project
 
-The official developer portfolio of **Pangeran Ryan Pahlevi**, showcasing 21+ production-grade software projects, national research portals, AI command centers, university platforms, and e-commerce systems.
+The official developer portfolio of Pangeran Ryan Pahlevi, showcasing 21+ production-grade software projects, national research portals, AI command centers, university platforms, and e-commerce systems.
 
-ðŸŒ **Live Demo**: [https://pangeranryan.vercel.app](https://pangeranryan.vercel.app)
-
----
-
-## âœ¨ Key Features
-
-- **ðŸš€ Interactive Project Gallery**: Multi-category filter for 21+ real GitHub repositories with architecture blueprints, metrics, and problem-solution breakdowns.
-- **ðŸ›ï¸ Integrated Bank Indonesia Showcase**: Full central bank portal showcase embedded at \/bank-indonesia\.
-- **ðŸ“Š Skills & Competencies Matrix**: Visual rating of technical proficiencies (Next.js, Laravel, TypeScript, NLP, Cyber Security).
-- **â±ï¸ Career & Leadership Timeline**: Detailed breakdown of software engineering roles, project management, and national achievements (GEMASTIK Finalist, BNSP Certification).
-- **âš¡ 100% Static Site Generation**: Blazing fast load times with Next.js 14 App Router.
+Live Demo: https://pangeranryan.vercel.app
 
 ---
 
-## ðŸš€ Getting Started
+## Key Features
+
+- Interactive Project Gallery: Multi-category filter for 21+ real GitHub repositories with architecture blueprints, metrics, and problem-solution breakdowns.
+- Integrated Bank Indonesia Showcase: Full central bank portal showcase embedded at /bank-indonesia.
+- Skills and Competencies Matrix: Visual rating of technical proficiencies (Next.js, Laravel, TypeScript, NLP, Cyber Security).
+- Career and Leadership Timeline: Detailed breakdown of software engineering roles, project management, and national achievements (GEMASTIK Finalist, BNSP Certification).
+- 100% Static Site Generation: Blazing fast load times with Next.js 14 App Router.
+
+---
+
+## Getting Started
 
 `ash
 git clone https://github.com/raphlv/portfolio-next.git
@@ -43,8 +43,8 @@ npm run dev
 
 ---
 
-## ðŸ‘¨â€ðŸ’» Developer
-**Pangeran Ryan Pahlevi** â€” [pangeranryan.vercel.app](https://pangeranryan.vercel.app)
+## Developer and Maintainer
+Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
 
-<!-- Last verified & polished: 2026-09-01 13:08:36 by Pangeran Ryan Pahlevi -->
+<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
 
