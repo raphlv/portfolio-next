@@ -92,7 +92,7 @@ const jsonLdPerson = {
   },
   sameAs: [
     'https://github.com/raphlv',
-    'https://instagram.com/raphlv',
+    'https://instagram.com/jspryourbae',
   ],
   knowsAbout: [
     'Next.js',

@@ -29,6 +29,7 @@ export const DEVELOPER_PROFILE = {
   whatsapp: '6288224602608',
   whatsappFormatted: '0882-2460-2608',
   github: 'https://github.com/raphlv',
+  instagram: 'https://instagram.com/jspryourbae',
   location: 'Jakarta, Indonesia',
   availability: 'Terbuka untuk diskusi proyek baru & kolaborasi',
   stats: [
