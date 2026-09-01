@@ -32,6 +32,16 @@ Live Demo: https://pangeranryan.vercel.app
 
 ---
 
+## Technology Stack
+
+- Framework: Next.js 14 (App Router)
+- Language: TypeScript
+- Styling: Tailwind CSS
+- Data Visualization: Recharts
+- Deployment: Vercel (CI/CD Automated Git Sync)
+
+---
+
 ## Getting Started
 
 `ash
