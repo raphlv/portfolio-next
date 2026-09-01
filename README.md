@@ -1,8 +1,8 @@
-﻿<div align="center">
+<div align="center">
 
-# Pangeran Ryan Pahlevi â€” Software Engineer and Full-Stack Portfolio
+# Pangeran Ryan Pahlevi - Software Engineer and Full-Stack Portfolio
 
-### *Personal Developer Portfolio & 21+ Enterprise Software Showcases*
+### *Personal Developer Portfolio and 21+ Enterprise Software Showcases*
 
 ![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -34,7 +34,7 @@ Live Demo: https://pangeranryan.vercel.app
 
 ## Getting Started
 
-`ash
+`ash
 git clone https://github.com/raphlv/portfolio-next.git
 cd portfolio-next
 npm install
@@ -44,7 +44,4 @@ npm run dev
 ---
 
 ## Developer and Maintainer
-Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
-
-<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
-
+Pangeran Ryan Pahlevi - https://pangeranryan.vercel.app
