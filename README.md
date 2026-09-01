@@ -1,6 +1,6 @@
-<div align="center">
+﻿<div align="center">
 
-# 💼 Pangeran Ryan Pahlevi (`raphlv`) — Full-Stack Software Engineer & Web Developer
+# ðŸ’¼ Pangeran Ryan Pahlevi (`raphlv`) â€” Full-Stack Software Engineer & Web Developer
 
 ### *Website Portofolio Profesional Berbasis Next.js 14, React 18, TypeScript, dan Tailwind CSS*
 
@@ -13,13 +13,13 @@
 
 </div>
 
-## 🌟 Tentang Portofolio
+## ðŸŒŸ Tentang Portofolio
 
 Website portofolio resmi **Pangeran Ryan Pahlevi** ([@raphlv](https://github.com/raphlv)) dirancang dengan estetika modern, bersih (*clean light theme*), dan terstruktur untuk menampilkan **20 proyek nyata di GitHub** kepada calon klien, instansi pemerintah, institusi pendidikan, dan perusahaan.
 
 ---
 
-## 🚀 Fitur Utama
+## ðŸš€ Fitur Utama
 
 1. **Galeri 20 Proyek Nyata GitHub**:
    - **Enterprise & Portals**: BRIN Portal Next.js, Budi Luhur Portal, Budi Luhur TV Streaming, Radio Budi Luhur 107.7 FM, Jurnal Akademik, Budi Luhur TV Laravel Engine, Jule Public Speaking.
@@ -37,7 +37,7 @@ Website portofolio resmi **Pangeran Ryan Pahlevi** ([@raphlv](https://github.com
 
 ---
 
-## 🛠️ Menjalankan di Lokal
+## ðŸ› ï¸ Menjalankan di Lokal
 
 ```bash
 # Masuk ke direktori
@@ -51,5 +51,8 @@ npm start -- -p 3010
 ---
 
 <div align="center">
-  <sub>© 2026 Pangeran Ryan Pahlevi (raphlv). All Rights Reserved.</sub>
+  <sub>Â© 2026 Pangeran Ryan Pahlevi (raphlv). All Rights Reserved.</sub>
 </div>
+
+
+<!-- Last updated: 2026-09-01 13:06:26 -->
